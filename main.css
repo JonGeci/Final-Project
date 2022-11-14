@@ -1,0 +1,390 @@
+* {
+  font-family: "Inria Sans", sans-serif;
+}
+body {
+  background-color: #FEF7B7;
+}
+
+.JH {
+  font-size: 5.5vw;
+  color: #5E644D;
+  position: absolute;
+  margin: 0%;
+}
+
+h1 {
+  font-size: 5.5vw;
+  color: #5E644D;
+  position: absolute;
+  margin: 0%;
+}
+
+.Icons {
+  float: right;
+  display: flex;
+  width: 30%;
+  height: 64px;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-right: 20px;
+  
+}
+
+img {
+  filter: opacity(70%);
+}
+
+.ticket {
+  display: flex;
+  position: absolute;
+  width: 80%;
+  height: 210px;
+  left: 133px;
+  top: 220px;
+  background: #FFF48C;
+  border-radius: 20px;
+  z-index: 9;
+  flex: auto;
+}
+
+.where {
+  box-sizing: border-box;
+  position: absolute;
+  width: 725px;
+  height: 105px;
+  left: 50px;
+  top: 50px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+.line {
+  position: absolute;
+  width: 0px;
+  height: 102px;
+  left: 367.5px;
+  top: 0px;
+  border: 1px solid #000000;
+}
+
+.arrows {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 360px;
+  border: 1px solid #000000;
+  left: 338px;
+  top: 20px;
+  justify-content: center;
+}
+
+select {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  font-size: 24px;
+}
+
+.p {
+  position: absolute;
+  font-size: 20px;
+  top: -12px;
+  left: 15px;
+}
+
+.a {
+  position: absolute;
+  font-size: 20px;
+  top: -12px;
+  left: 410px;
+}
+
+#origin {
+  position: absolute;
+  top: 33px;
+  left: 15px;
+  width: 200px;
+  height: 40px;
+  border: 0px;
+  font-size: 24px;
+}/*# sourceMappingURL=main.css.map */
+
+#destination {
+  position: absolute;
+  top: 33px;
+  left: 410px;
+  width: 200px;
+  height: 40px;
+  border: 0px;
+  font-size: 24px;
+}
+
+.airplane {
+position: fixed;
+width: 60%;
+height: 280px;
+left: 662px;
+top: 344px;
+z-index: 10;
+}
+
+.plane {
+  filter: opacity(100%);
+}
+
+.mal {
+filter: opacity(100%);
+}
+
+.person {
+  filter: opacity(100%);
+}
+
+.passenger {
+  position: absolute;
+  left: 825px;
+  top: 100px;
+  background-color: white;
+  width: 300px;
+  height: 75px;
+  border-radius: 20px;
+  border: #000000 1px solid;
+}
+
+.passanger {
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  left: 80px;
+  bottom: 5px;
+}
+
+.passp {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+
+.peson {
+  position: absolute;
+  filter: opacity(100%);
+  width: 35px;
+  top: 35px;
+  left: 10px;
+}
+
+#parent {
+  position: relative;
+}
+
+.mal {
+  filter: opacity(100%);
+  position: fixed;
+  top: 230px;
+  left: -80px;
+  border-radius: 2000rem;
+  height: 680px;
+}
+
+.signin-box {
+  position: absolute;
+  width: 1050px;
+  height: 650px;
+  background-color: #FFF48C;
+  top: 100px;
+  left: 40px;
+}
+
+.signin-p {
+  position: absolute;
+  font-size: 60px;
+  bottom: 500px;
+  left: 40px;
+}
+
+.mailmgi {
+  position: absolute;
+  filter: opacity(100%);
+  width: 270px;
+  height: 270px;
+  top: 140px;
+  left: 60px;
+}
+
+.information {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.dinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  width: 500px;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 30rem;
+  margin-top: 0px;
+}
+
+#dinfo {
+  margin-top: 70px;
+}
+
+.pinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 0px;
+  height: 50px;
+  margin-left: 70px;
+}
+
+.butt-signin {
+  background-color: #F8E00D;
+  border: 0px;
+  width: 150px;
+  height: 25px;
+  border-radius: 20px;
+  margin-left: 41rem;
+}
+.infooo {
+  width: 45px;
+  height: 45px;
+  margin-top: 2px;
+}
+.ab {
+  width: 45px;
+  height: 45px;
+  margin-top: 2px;
+}
+
+.ct {
+  width: 45px;
+  height: 45px;
+  margin-top: 3px;
+}
+
+.heading-info {
+font-size: 30px;
+margin-bottom: 100px;
+position: absolute;
+top: -40px;
+}
+
+.baggage-text {
+  position: relative;
+  top: 150px;
+  left: 800px;
+  width: 600px;
+  height: 400px;
+}
+
+.baggage {
+  aspect-ratio: 3:2;
+  filter: opacity(100%);
+  width: 600px;
+  height: 600px;
+  margin-top: -275px;
+}
+
+.abuh {
+position: absolute;
+font-size: 40px;
+color: white;
+top: 100px;
+}
+
+.oneh {
+position: absolute;
+font-size: 400px;
+color: white;
+top: 100px;
+left: 600px;
+}
+
+.airh {
+  position: absolute;
+font-size: 140px;
+color: white;
+top: 350px;
+left: 980px;
+}
+
+.loremp {
+position: absolute;
+font-size: 20px;
+color: white;
+top: 130px;
+width: 600px;
+}
+
+.contact {
+  position: fixed;
+  width: 800px;
+  height: 700px;
+  background-color: #FFF48C;
+  top: 90px;
+  left: -0px;
+}
+
+.fatt {
+  position: fixed;
+  filter: opacity(100%);
+  width: 800px;
+  height: 700px;
+  top: 90px;
+  left: 800px;
+}
+
+.cinfo {
+  background-color: white;
+  width: 500px;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-left: 140px;
+}
+
+.ctext {
+  border: 0px;
+  height: 50px;
+  width: 500px;
+ border-radius: 10px;
+}
+
+.msg {
+  background-color: white;
+  width: 500px;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-left: 140px;
+}
+
+.msgtxt {
+  border: 0px;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+  resize: none;
+}
+
+.butt-submit {
+ background-color: #F8E00D;
+ width: 140px;
+ height: 30px;
+ border-radius: 20px;
+ margin-top: 80px;
+ margin-left: 315px;
+}
